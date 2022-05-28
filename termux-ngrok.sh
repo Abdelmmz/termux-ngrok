@@ -1,8 +1,8 @@
 #!/bin/bash
-#Developed by: Ahmed Mohamed (A l - A l a m y)
-#YouTube Channel: https://www.youtube.com/channel/UCQuGjfmo04jDd6zlBscslGQ
-#YouTube Channel: https://www.youtube.com/channel/UCm-UlQ6ygk4jkNfgFzlc2LA
-# A7Y Team
+#Developed by: Abdelmmz (ABDELMMZ)
+#YouTube Channel: https://youtube.com/channel/UCoqoz-TymTLKiThHNBgNoWw
+
+# CALIWEED BEST WEED
 
 r='\e[99;31m' # Red
 g='\e[99;32m' # Green
@@ -18,27 +18,27 @@ echo -e "${b}██╔══██║██║╚════╝██╔══�
 echo -e "${b}██║  ██║███████╗ ██║  ██║███████╗██║  ██║██║ ╚═╝ ██║   ██║";
 echo -e "${b}╚═╝  ╚═╝╚══════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝   ╚═╝";
 echo
-echo -e $g"Do you want to install Ngrok? [Y/n]"
+echo -e $g"Do you want to install Ngrok BRO? [Y/n]"
 read selection
 case $selection in
 y)
     clear
     echo
-    sleep 0.4
+    sleep 0.10
     #printf "Please wait..[                    ] 0% "
-    #sleep 0.4
+    #sleep 0.10
     #clear
     #printf "Please wait..[=====               ] 25%"
-    #sleep 0.4
+    #sleep 0.10
     #clear
     #printf "Please wait..[==========          ] 50%"
-    #sleep 0.4
+    #sleep 0.10
     #clear
     #printf "Please wait..[===============     ] 75%"
-    #sleep 0.4
+    #sleep 0.10
     #clear
     #printf "Please wait..[====================] 100%"
-    #sleep 0.4
+    #sleep 0.10
     #clear
 case `dpkg --print-architecture` in
 aarch64)
@@ -62,7 +62,7 @@ unzip ngrok.zip
 cat ngrok > /data/data/com.termux/files/usr/bin/ngrok
 chmod 700 /data/data/com.termux/files/usr/bin/ngrok
 rm ngrok ngrok.zip
-xdg-open https://www.youtube.com/channel/UCm-UlQ6ygk4jkNfgFzlc2LA
+xdg-open https://youtube.com/channel/UCoqoz-TymTLKiThHNBgNoWw
 sleep 0.10
 clear
 echo -e "${g}███╗   ██╗ ██████╗ ██████╗  ██████╗ ██╗  ██╗";
@@ -82,7 +82,7 @@ n)
     ;;
     
 exit)
-    echo -e $y"Goodbye "
+    echo -e $g"Goodbye "
     ;;
     
 *)
